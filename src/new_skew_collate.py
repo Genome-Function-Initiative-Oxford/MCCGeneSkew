@@ -189,15 +189,12 @@ if __name__=="__main__":
     )
     parser.add_argument(
         "--regions-file",
-        default="/project/Wellcome_Discovery/lhentges/atac_LoTronOpV/union_with_peak_score_plus_pvals.bed"
     )
     parser.add_argument(
         "--regions-black-list",
-        default="/project/Wellcome_Discovery/esanders/exclusion_regions/ENCFF356LFX.bed.gz"
     )
     parser.add_argument(
         "--skew-file-pattern",
-        default="/project/Wellcome_Discovery/esanders/00_atac_skew/00_ATAC_counts/*.BAM_counts.vcf.gz"
     )
     parser.add_argument("--chrom")
     parser.add_argument("--output")
